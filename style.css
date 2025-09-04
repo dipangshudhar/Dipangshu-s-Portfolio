@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  color: black;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: left;
+  text-align: left;
+  border: 15px solid azure;
+  border-radius: 50px;
+}
+
+header img{
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+#home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 50vh;
+}
+
+#home div img{
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#home div h1{
+  font-size: 35px;
+}
+
+#home div p{
+  font-weight: 500;
+}
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 1vh;
+}
+
+#about div h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#about div p{
+  margin: 10px;
+  padding: 10px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#techstack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 25vh;
+}
+
+#techstack div h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#techstack div img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+#tools{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 25vh;
+}
+
+#tools div h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#tools div img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 25vh;
+}
+
+#contact div h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#contact div img{
+  padding: 2px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 555;
+  font-size: 15px;
+}
+
+/* animation */
+
+#home img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#home img:hover {
+  transform: scale(1.1);
+}
+
+#about div p {
+  transition: transform 0.5s ease-in-out;
+}
+
+#about div p:hover {
+  transform: scale(1.1);
+}
+
+#techstack img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#techstack img:hover {
+  transform: scale(1.1);
+}
+
+#tools img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#tools img:hover {
+  transform: scale(1.1);
+}
+
+#contact img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#contact img:hover {
+  transform: scale(1.1);
+}
+
+section div h2{
+  transition: transform 0.5s ease-in-out;
+}
+
+section div h2:hover {
+  transform: scale(1.1);
+}
+
+#home h1 {
+  transition: transform 0.5s ease-in-out;
+}
+
+#home h1:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #home {
+    font-size: 14px;
+    height: auto;
+    padding: 20px;
+  }
+
+  #home div img {
+    width: 120px;
+  }
+
+  #home div h1 {
+    font-size: 30px;
+  }
+
+  #about {
+    font-size: 14px;
+    height: auto;
+    padding: 20px;
+  }
+
+  #about div h2 {
+    font-size: 22px;
+  }
+
+  #techstack {
+    height: auto;
+    padding: 20px;
+  }
+
+  #techstack div img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+
+  #tools {
+    height: auto;
+    padding: 20px;
+  }
+
+  #tools div img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+
+  #contact {
+    height: auto;
+    padding: 20px;
+  }
+  
+  #contact div img {
+    width: 40px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
